@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
@@ -8,7 +9,8 @@ public class PlayerScript : MonoBehaviour
     [SerializeField]
     bool isGround = false;
     Rigidbody2D RB;
-
+    [SerializeField]
+    private float Speed;
 
     AudioSource AS;
     public AudioClip Jump;
@@ -37,6 +39,7 @@ public class PlayerScript : MonoBehaviour
                 AS.Play();
             }
         }
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -49,6 +52,14 @@ public class PlayerScript : MonoBehaviour
                 AS.clip = Land;
                 AS.Play();
             }
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.CompareTag("Obstacle"))
+        {
+            Time.timeScale = 0;
         }
     }
 

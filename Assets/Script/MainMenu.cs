@@ -19,7 +19,7 @@ public class MainMenu : MonoBehaviour
 
     public void OnClickNewGame()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadSceneAsync("Game");
     }
 
     public void OnClickLoad() 
