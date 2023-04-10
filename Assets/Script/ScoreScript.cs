@@ -7,8 +7,8 @@ using UnityEngine.UI;
 
 public class ScoreScript : MonoBehaviour
 {
-    public float GameTime = 0;
-    public int iScore;
+    float GameTime = 0;
+    int iScore;
     public TextMeshProUGUI Score;
 
     // Start is called before the first frame update
@@ -25,4 +25,8 @@ public class ScoreScript : MonoBehaviour
         Score.text = iScore.ToString();
     }
     
+    public int GetScore()
+    {
+        return iScore;
+    }
 }
