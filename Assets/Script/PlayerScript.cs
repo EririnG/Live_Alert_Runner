@@ -60,6 +60,9 @@ public class PlayerScript : MonoBehaviour
         if(collision.gameObject.CompareTag("Obstacle"))
         {
             Time.timeScale = 0;
+            GameManager gameManager = GameObject.FindObjectOfType<GameManager>();
+            gameManager.imageRestart.SetActive(true);
+
         }
     }
 
