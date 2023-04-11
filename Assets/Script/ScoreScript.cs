@@ -9,8 +9,8 @@ public class ScoreScript : MonoBehaviour
 {
     float GameTime = 0;
     int iScore;
+    public static int Coin;
     public TextMeshProUGUI Score;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -24,9 +24,11 @@ public class ScoreScript : MonoBehaviour
         iScore = (int)GameTime;
         Score.text = iScore.ToString();
     }
-    
+
+
     public int GetScore()
     {
         return iScore;
     }
+
 }
