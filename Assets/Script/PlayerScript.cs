@@ -96,8 +96,10 @@ public class PlayerScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Coin"))
         {
             ScoreScript.Coin += 1;
+            
             AS.clip = Coinsound;
             AS.Play();
+            collision.gameObject.SetActive(false);
         }
     }
 

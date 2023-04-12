@@ -14,14 +14,7 @@ public class Coin : MonoBehaviour
         collider2D = GetComponent<Collider2D>();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            Destroy(collision.gameObject);
-        }
-    }
+  
     void Update()
     {
         
