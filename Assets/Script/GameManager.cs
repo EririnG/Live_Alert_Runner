@@ -6,6 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public Sprite[] CoordiSpriteList;
+    public string[] CoordiNameList;
+    public int[] CoordiGoldList;
+
+
     public GameObject imageRestart;
     public Vector3[] PointList;
     // Start is called before the first frame update
