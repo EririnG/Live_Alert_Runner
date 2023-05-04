@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     public Sprite[] CoordiSpriteList;
     public string[] CoordiNameList;
     public int[] CoordiGoldList;
-
+    public int[] CoordiDiaList;
 
     public GameObject imageRestart;
     public Vector3[] PointList;
