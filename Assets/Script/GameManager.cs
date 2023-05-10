@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
     public string[] CoordiNameList;
     public int[] CoordiGoldList;
     public int[] CoordiDiaList;
+    public int[] NumGoldList;
+    public int[] ClickGoldList;
 
     public GameObject imageRestart;
     public Vector3[] PointList;
