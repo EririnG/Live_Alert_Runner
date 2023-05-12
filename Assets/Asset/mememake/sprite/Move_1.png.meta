@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: fb3a431064847b9419e20ee2cb259183
+guid: 171ea0f3ecf2dde4585219ebee020509
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2589212268415769977
-    second: R_Idle_0
+      213: 6948104520292831157
+    second: Move_1_0
   - first:
-      213: -8376621800927932320
-    second: R_Idle_1
+      213: 933445650165386914
+    second: Move_1_1
+  - first:
+      213: 7862300065105751154
+    second: Move_1_2
+  - first:
+      213: 3205134374024849731
+    second: Move_1_3
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -101,13 +107,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: R_Idle_0
+      name: Move_1_0
       rect:
         serializedVersion: 2
-        x: 24
+        x: 0
         y: 0
-        width: 80
-        height: 104
+        width: 120
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,20 +121,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 97d510307dabee320800000000000000
-      internalID: 2589212268415769977
+      spriteID: 5bf0752af30ac6060800000000000000
+      internalID: 6948104520292831157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: R_Idle_1
+      name: Move_1_1
       rect:
         serializedVersion: 2
-        x: 152
+        x: 128
         y: 0
-        width: 80
-        height: 96
+        width: 120
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,8 +142,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 060d5e17ad240cb80800000000000000
-      internalID: -8376621800927932320
+      spriteID: 2aecd3b8fd344fc00800000000000000
+      internalID: 933445650165386914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_1_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ca822c0408c1d60800000000000000
+      internalID: 7862300065105751154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_1_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 120
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349252d4bbcea7c20800000000000000
+      internalID: 3205134374024849731
       vertices: []
       indices: 
       edges: []
@@ -152,9 +200,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      R_Idle_0: 2589212268415769977
-      R_Idle_1: -8376621800927932320
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
